@@ -1,0 +1,23 @@
+name: forgemind
+description: Offline, privacy-first code generator with embedded LLM
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.1.2
+  flutter_markdown: ^0.6.17
+  file_picker: ^6.1.1
+  process_run: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
